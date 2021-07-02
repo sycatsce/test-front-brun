@@ -1,0 +1,118 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.teams {
+  color: white;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.teams-title {
+  padding-top: 5%;
+  text-align:center;
+}
+
+.teams-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team {
+  margin: 5%;
+}
+
+.team-icon {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;}
+
+
+.team-details {
+  color: white;
+  min-height: 100vh;
+  background-color: #282c34;
+}
+
+.team-details-name{
+  text-align: center;
+  padding-top: 5%;
+}
+
+.team-details-informations {
+  padding-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-details-informations b{
+  font-size: 2em;
+}
+
+.team-details-descriptions{
+  padding: 5%;
+}
+
+.team-details-icon{
+  width: 300px;
+  height: 300px;
+}
+
+.team-details-players-title b {
+  font-size: 2em;
+  padding: 5%;
+}
+
+.team-details-players-title {
+  margin-top: 5%;
+}
+
+.team-details-player {
+  padding: 5% 5% 5% 5%;
+  width: 30%;
+}
+
+.team-details-players {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.player-name {
+  font-size: 2em;
+}
+
+.form-player{
+  color: white;
+  min-height: 100vh;
+  background-color: #282c34;
+  padding: 1px;
+  clear: both;
+}
+
+form{
+  padding: 5%;
+}
+
+.form-player input {
+  width: 100%;
+  clear: both;
+}
